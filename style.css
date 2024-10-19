@@ -1,120 +1,179 @@
 /* nav style*/
-body{
-   
-  font-family: 'Lato',sans-serif;
-  font-family:'Open Sans ' sans-serif;
+body {
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans ' sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-color: white;
-font-size: 20px;
-font-style: normal;
-font-weight: 700px;
-padding: 15px 35px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700px;
+    padding: 15px 35px;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-family: "Open Sans";
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
-    
+
 }
-.section-description{
+
+.section-description {
     color: #757575;
-text-align: center;
-font-size: 18px;
+    text-align: center;
+    font-size: 18px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
 }
-.nav-title{
+
+.nav-title {
     color: var(--Dark-01, #181818);
- 
-font-size: 45px;
-font-weight: 800;
+
+    font-size: 45px;
+    font-weight: 800;
 
 }
 
-nav>ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 51px;
 
 }
-nav a{
-text-decoration: none;
-color: #474747;
+
+nav a {
+    text-decoration: none;
+    color: #474747;
 }
 
 /*header style*/
 
-.header{
-    background: #FFF8F3; 
+.header {
+    background: #FFF8F3;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    
-    
+
+
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner .profile{
+
+.banner .profile {
     width: 584px;
     height: 676;
-  
+
 }
-.banner-greeting{
-    font-size: 45px; 
-    color:#474747;
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
-font-weight: 700;
-margin-top: 5px;
-margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 
 }
 
 /*main section style*/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top:130px ;
+}
+
 /*about section style*/
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
-    
+
+}
+
+.info-title {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-description {
+    color: var(--Dark-02, #474747);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+/*skills  related style*/
+#what-i-do-description {
+    padding: 30px 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+ 
 }
